@@ -1,0 +1,12 @@
+{
+    "extensions": [
+      "GitHub.github-vscode-theme",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "stylelint.vscode-stylelint"
+      // Additional Extensions Here
+    ],
+    "onCreateCommand": ["echo PS1='\"$ \"' >> ~/.bashrc","npm install -g gatsby-cli", "gatsby new . https://github.com/gatsbyjs/gatsby-starter-slices"] 
+  }
+  
+  // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
